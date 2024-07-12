@@ -22,4 +22,4 @@ ISC, see [LICENSE](./LICENSE)
 
 ## Credits
 
-- [VileR](https://int10h.org) (IBM VGA font).
+- [VileR](https://int10h.org) IBM VGA font ([license](https://int10h.org/oldschool-pc-fonts/readme/#legal_stuff)).
