@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"> 
+		<title>9ui preview</title>
+		<link href="9ui.css" rel="stylesheet"/>
+	</head>
+	<body class="wallpaper">
+		<style>
+			body > * {
+				margin-bottom: 1em;
+			}
+		</style>
+
+		<div class="active-window" style="width: fit-content;">
+			<h1>Active window</h1>
+			<p>this is an active window</p>
+		</div>
+
+		<div class="inactive-window" style="width: fit-content;">
+			<h1>Inactive window</h1>
+			<p>this is an inactive window</p>
+		</div>
+
+		<div class="menu" style="display: inline-flex; flex-flow: column nowrap;">
+			<p class="menu-sel">selected option (flex)</p>
+			<p>other option (flex)</p>
+		</div>
+
+		<div style="width: fit-content;">
+			<ul class="menu" style="list-style-type: none; margin: 0;">
+				<li class="menu-sel">selected option (ul)</li>
+				<li>other option (ul)</li>
+			</ul>
+		</div>
+
+		<a class="button">LaaB (link as a button)</a>
+
+		<div style="width: fit-content; margin-top: 1em;">
+			<ul class="menu" style="list-style-type: none; margin: 0;">
+				<li class="menu-sel"><a>selected option (ul with a)</a></li>
+				<li><a>other option (ul with a)</a></li>
+			</ul>
+		</div>
+	</body>
+</html>
