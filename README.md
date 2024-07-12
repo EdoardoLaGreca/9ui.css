@@ -14,6 +14,8 @@ For now, the available UI elements, as CSS classes, are:
 
 You can see a preview, which works as a usage example as well, using [preview.html](./preview.html).
 
+![preview](./preview.png)
+
 ## License
 
 ISC, see [LICENSE](./LICENSE)
