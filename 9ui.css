@@ -1,0 +1,53 @@
+@font-face {
+	font-family: IBMVGA;
+	src: url(Web437_IBM_VGA_8x16.woff);
+}
+
+/* elements */
+
+.wallpaper {
+	background-color: rgb(93,97,93);
+}
+
+.active-window {
+	border: 0.25em solid rgb(66,153,151);
+	color: rgb(0,0,0);
+}
+
+.inactive-window {
+	border: 0.25em solid rgb(137,233,226);
+	color: rgb(78,81,77);
+}
+
+.active-window, .inactive-window {
+	background-color: rgb(246,252,246);
+	padding-left: 1em;
+	padding-right: 1em;
+	font-family: IBMVGA;
+}
+
+.menu, .button {
+	border: 0.125em solid rgb(120,196,117);
+	background-color: rgb(227,253,226);
+	padding: 0;
+	list-style-type: none;
+	font-family: IBMVGA;
+	color: rgb(0,0,0);
+}
+.menu > *, .button {
+	padding: 0.1em;
+}
+.menu > * {
+	margin: 0;
+	text-align: center;
+}
+.menu > .menu-sel, .menu > *:hover, .button:hover {
+	background-color: rgb(52,120,49);
+	color: rgb(227,253,226);
+}
+
+/* colors */
+
+:root {
+
+}
