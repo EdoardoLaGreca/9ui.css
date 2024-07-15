@@ -18,8 +18,8 @@ You can see a preview, which works as a usage example as well, using [preview.ht
 
 ## License
 
-ISC, see [LICENSE](./LICENSE)
+ISC (see [LICENSE](./LICENSE))
 
 ## Credits
 
-- [VileR](https://int10h.org) IBM VGA font ([license](https://int10h.org/oldschool-pc-fonts/readme/#legal_stuff)).
+- [VileR](https://int10h.org): IBM VGA font ([license](https://int10h.org/oldschool-pc-fonts/readme/#legal_stuff)).
