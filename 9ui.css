@@ -49,5 +49,27 @@
 /* colors */
 
 :root {
+	--red-primary: rgb(244,149,152);
+	--red-secondary: rgb(168,71,70);
+	--red-background: rgb(246,226,226);
 
+	--cyan-primary: rgb(137,233,226);
+	--cyan-secondary: rgb(117,114,188);
+	--cyan-background: rgb(227,252,246);
+
+	--yellow-primary: rgb(227,234,134);
+	--yellow-secondary: rgb(134,136,56);
+	--yellow-background: rgb(246,252,226);
+
+	--green-primary: rgb(120,196,117);
+	--green-secondary: rgb(52,120,49);
+	--green-background: rgb(227,253,226);
+
+	--blue-primary: rgb(18,149,246);
+	--blue-secondary: rgb(14,115,188);
+	--blue-background: rgb(180,226,246);
+
+	--gray-primary: rgb(188,193,188);
+	--gray-secondary: rgb(117,117,117);
+	--gray-background: rgb(226,231,226);
 }

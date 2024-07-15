@@ -10,6 +10,16 @@
 			body > * {
 				margin-bottom: 1em;
 			}
+			.palette, .palette * {
+				border-width: 0;
+				border-spacing: 0;
+				margin: 0;
+				padding: 0;
+			}
+			.palette td {
+				width: 12vw;
+				height: 4vw;
+			}
 		</style>
 
 		<div class="active-window" style="width: fit-content;">
@@ -42,5 +52,32 @@
 				<li><a>other option (ul with a)</a></li>
 			</ul>
 		</div>
+
+		<table class="palette">
+			<tr>
+				<td style="background-color: var(--red-primary)"></td>
+				<td style="background-color: var(--cyan-primary)"></td>
+				<td style="background-color: var(--yellow-primary)"></td>
+				<td style="background-color: var(--green-primary)"></td>
+				<td style="background-color: var(--blue-primary)"></td>
+				<td style="background-color: var(--gray-primary)"></td>
+			</tr>
+			<tr>
+				<td style="background-color: var(--red-secondary)"></td>
+				<td style="background-color: var(--cyan-secondary)"></td>
+				<td style="background-color: var(--yellow-secondary)"></td>
+				<td style="background-color: var(--green-secondary)"></td>
+				<td style="background-color: var(--blue-secondary)"></td>
+				<td style="background-color: var(--gray-secondary)"></td>
+			</tr>
+			<tr>
+				<td style="background-color: var(--red-background)"></td>
+				<td style="background-color: var(--cyan-background)"></td>
+				<td style="background-color: var(--yellow-background)"></td>
+				<td style="background-color: var(--green-background)"></td>
+				<td style="background-color: var(--blue-background)"></td>
+				<td style="background-color: var(--gray-background)"></td>
+			</tr>
+		</table>
 	</body>
 </html>
